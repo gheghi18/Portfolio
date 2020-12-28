@@ -1,0 +1,104 @@
+html,
+body {
+    height: 100%;
+    color: #000;
+}
+.content {
+    padding-right: 30px;
+    padding-left: 30px;
+    height:50%;
+}
+
+.background {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+@media (min-width: 768px) {
+    .height-100 {
+        height: 100%;
+    }
+}
+
+.byline
+{
+    display:block;
+}
+
+h1 {
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 48px;
+    font-weight: 700 !important;
+}
+
+.article .article-title
+{
+    font-size:13px;
+}
+
+.article .article-title a
+{
+    color:black;
+}
+
+.article .article-description
+{
+    font-size: 14px;
+}
+
+.text {
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.small-heading {
+    font-size: 12px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #00b0ff;
+    font-weight: 600;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+    .height-100 {
+        height: 100%;
+    }
+}
+
+
+.container-fluid .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        padding-top: 48px;
+    }
+}
+
+.social-icon {
+    transition: 0.2s;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .social-icon {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+}
